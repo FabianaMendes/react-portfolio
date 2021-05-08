@@ -18,7 +18,7 @@ export default function ContactForm({onSubmit}) {
     return (
         <div className="contact-form">
             <div className="form-wrapper">
-                <form method="post" action="/controllers/controllerForm.php" onSubmit={(event) => {
+                <form onSubmit={(event) => {
                     event.preventDefault();
                     if(canSubmit()){
                         onSubmit({name, email, phone, message});
