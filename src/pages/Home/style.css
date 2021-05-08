@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 999998;
+    z-index: 999997;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     top: 0;
@@ -41,5 +41,19 @@
                      0 0 40px #ec7200,
                      0 0 80px #ec7200,
                      0 0 160px #ec7200;    
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .home-body{
+        position: relative;
+        z-index: 999995;
+        padding: 0;
+    }
+    .home-body h2{
+        font-size: 3.8em;
+        letter-spacing: 10px;
+        text-align: center;
+        line-height: 1.2em;
     }
 }

@@ -13,13 +13,10 @@ export default function Contacts() {
     const [container, setContainer] = useState(initial);
 
     function onSubmit(values) {
-        console.log(values);
         setContainer(<Thanks />);
         window.scrollTo(0,430);
-        /*axios.post(``, values)
-        .then((response)=>{
-            
-        });*/
+        //axios.post(``, values)
+        //.then((response)=>{});
     }
 
     function initial() {
@@ -63,7 +60,7 @@ export default function Contacts() {
                     <a href="https://www.linkedin.com/in/fabianamoreiramendes" target="new">
                         <i><FontAwesomeIcon icon={faLinkedinIn} /></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/fabianamoreiramendes" target="new">
+                    <a href="https://api.whatsapp.com/send?phone=5534988844224" target="new">
                         <i><FontAwesomeIcon icon={faWhatsapp} /></i>
                     </a>
                 </div>

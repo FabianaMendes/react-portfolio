@@ -85,9 +85,30 @@ a:hover {
     animation: fadeIn 0.3s ease-in-out;
 }
 
+@media only screen and (max-width: 900px){
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        height: fit-content;
+        box-sizing: border-box;
+        padding: 18vh 8vw 12vh;
+    }
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(+900px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .button{

@@ -10,3 +10,12 @@
 .container .skills-container:first-child{
     margin-bottom:100px;
 }
+
+@media only screen and (max-width: 900px){
+    .container .skills, .courses-container {
+        margin: 5vh 8vw 5vh;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+        grid-gap: 2vw;
+    }
+}

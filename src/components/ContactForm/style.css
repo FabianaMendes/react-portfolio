@@ -99,3 +99,43 @@
     padding: 18px 0;
     margin-left: 5%;
 }
+
+@media only screen and (max-width: 900px){
+    .contact-form .form-wrapper form {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-auto-flow: row;
+        row-gap: 1vw;
+    }
+    .contact-form .form-wrapper form #email-block, #email {
+        width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+    .contact-form .form-wrapper form #phone-block, #phone {
+        width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 3;
+    }
+    .contact-form .form-wrapper form #message-block, #message {
+        width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 4;
+    }
+    .contact-form .form-wrapper form #recaptcha-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        grid-column: 1 / -1;
+        grid-row: 5;
+    }
+    .contact-form .form-wrapper form button{
+        margin: 2vw 0 0;
+    }
+}

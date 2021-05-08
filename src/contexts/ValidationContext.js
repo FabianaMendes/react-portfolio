@@ -10,7 +10,6 @@ const ValidationContext = React.createContext({
 });
 
 function noValidate(values){
-    console.log(values);
     return { valid:true, text:"" }
 };
 

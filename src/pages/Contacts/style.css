@@ -31,3 +31,12 @@
 .container .contact-form .contact-thanks h2 {
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 900px){
+    .container .contact-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
