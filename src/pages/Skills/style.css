@@ -1,0 +1,12 @@
+.container .skills, .courses-container {
+    margin: 1% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 235px);
+    grid-gap: 2vw;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.container .skills-container:first-child{
+    margin-bottom:100px;
+}

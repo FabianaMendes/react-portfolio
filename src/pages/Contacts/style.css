@@ -1,0 +1,33 @@
+.container .contact-icons {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container .contact-icons i {
+    font-size: 35px;
+}
+
+.container .form-container {
+    margin-top: 3%;
+}
+
+/*Thanks container*/
+.container .contact-form .contact-thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    background: transparent;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.container .contact-form .contact-thanks h2 {
+    margin-bottom: 15px;
+}

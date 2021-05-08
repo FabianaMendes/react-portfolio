@@ -1,0 +1,101 @@
+/*Form*/
+.contact-form {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form .form-wrapper {
+    width: 90%;
+    height: fit-content;
+}
+
+.contact-form .form-wrapper form {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: row;
+    row-gap: 1%;
+    column-gap: 3%;
+}
+.contact-form .form-wrapper form .input-block {
+    height: max-content;
+    box-sizing: border-box;
+}
+.contact-form .form-wrapper form #name-block, #name {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+.contact-form .form-wrapper form #email-block, #email {
+    width: 100%;
+    grid-column: 1 / 7;
+    grid-row: 2;
+}
+.contact-form .form-wrapper form #phone-block, #phone {
+    width: 100%;
+    grid-column: 7 / 11;
+    grid-row: 2;
+}
+.contact-form .form-wrapper form #message-block, #message {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 3;
+}
+.contact-form .form-wrapper form #recaptcha-block {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / -1;
+    grid-row: 4;
+}
+
+.contact-form .form-wrapper form input {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--light);
+    border: none;
+    padding: 18px;
+    box-sizing: border-box;
+    outline-color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form .form-wrapper form input::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.contact-form .form-wrapper form textarea {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--light);
+    border: none;
+    padding: 18px;
+    box-sizing: border-box;
+    outline-color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form .form-wrapper form textarea::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.contact-form .form-wrapper form button {
+    width: 100%;
+    padding: 18px 0;
+    margin-left: 5%;
+}

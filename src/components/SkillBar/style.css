@@ -1,0 +1,62 @@
+.skillbar-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.skillbar-container .skillbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 3vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skillbar-container .skillbar .skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--primary);
+}
+
+.skillbar-container .skillbar .skill p {
+    width: 100%;
+    margin-right: 1%;
+    font-weight: 300;
+}
+
+.skillbar-container .skillbar #p10 {
+    width: 10%;
+}
+.skillbar-container .skillbar #p20 {
+    width: 20%;
+}
+.skillbar-container .skillbar #p30 {
+    width: 30%;
+}
+.skillbar-container .skillbar #p40 {
+    width: 40%;
+}
+.skillbar-container .skillbar #p50 {
+    width: 50%;
+}
+.skillbar-container .skillbar #p60 {
+    width: 60%;
+}
+.skillbar-container .skillbar #p70 {
+    width: 70%;
+}
+.skillbar-container .skillbar #p80 {
+    width: 80%;
+}
+.skillbar-container .skillbar #p90 {
+    width: 90%;
+}
+.skillbar-container .skillbar #p100 {
+    width: 100%;
+}

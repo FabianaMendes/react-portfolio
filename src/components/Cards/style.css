@@ -1,0 +1,31 @@
+.card-container {
+    width: 100%;
+    min-height: fit-content;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.02);
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.card-container h3 {
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: var(--primary);
+}
+
+.card-container h4 {
+    font-weight: 500;
+}
+
+.card-container h5 {
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.card-container p {
+    text-align: justify;
+    font-size: 15px;
+}
