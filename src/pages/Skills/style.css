@@ -1,14 +1,48 @@
 .container .skills, .courses-container {
     margin: 1% 0 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 235px);
+    grid-template-columns: repeat(auto-fill, 30%);
     grid-gap: 2vw;
     justify-content: space-between;
     height: max-content;
 }
 
+.container .courses-container li {
+    margin-bottom: 20px;
+}
+
+.container .courses-container h4 {
+    color: var(--primary);
+}
+
+.container .courses-container h5 {
+    margin-bottom: 10px;
+}
+
+.container .courses-container p {
+    font-size: 14px;
+}
+
+.container .courses-container p span {
+    font-weight: 400;
+}
+
 .container .skills-container:first-child{
     margin-bottom:100px;
+}
+
+.container li {
+    list-style: none;
+    position: relative;
+    margin-left: 10px;
+}
+
+.container li:before {
+    content: '\2022';
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    color: var(--primary);
 }
 
 @media only screen and (max-width: 900px){
