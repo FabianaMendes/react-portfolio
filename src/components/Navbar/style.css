@@ -33,6 +33,11 @@
     width: 100px;
     border: 2px solid var(--primary);
     border-radius: 50%;
+    transition: .2s ease-in-out;
+}
+
+#navbar header img:hover {
+    transform: scale(1.1);
 }
 
 #navbar header h1 {
@@ -51,7 +56,7 @@
 #navbar header p {
     margin: 0;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.5px;
 }
 
