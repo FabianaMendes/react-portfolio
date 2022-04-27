@@ -1,19 +1,18 @@
 <img align="center" alt="gif" title="#gif" src="./public/Animation.gif">
-<h1 align="center">CV-Web - Fabiana M. Mendes</h1>
+<h1 align="center">Página Pessoal - Fabiana M. Mendes</h1>
 
 <p align="center" >  
     <a href="#description">Description</a> • 
     <a href="#status">Status</a> • 
-    <a href="#requirements">Requirements</a> • 
     <a href="#how to run the app">How to run the App</a> • 
     <a href="#technologies">Technologies</a> • 
-    <a href="#version">Version</a> • 
+    <a href="#version">Version</a>
 </p>
 
 
 
 ## Description
-A simple React-app with my profissional information.
+A simple React-app with my professional information.
 
 
 
@@ -22,20 +21,11 @@ A simple React-app with my profissional information.
 
 
 
-## Requirements
-Before you begin, you will need to have installed on your machine:
-- Browser [Google Chrome](https://www.google.com/intl/pt-BR/chrome/), [Mozzila Firefox](https://www.mozilla.org/pt-BR/firefox/new/) or [Opera](https://www.opera.com/pt-br/download)
-- Code editor [Visual Studio Code](https://code.visualstudio.com/)
-- [Node v14.15.4](https://nodejs.org/en/) or superior LTS version (includes npm)
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
-
-
-
 ## How to run the app
 - Open cmd and clone the repository:
 ``` $ git clone https://github.com/FabianaMendes/react-portfolio.git ``` 
 - Access project folder in terminal/cmd: 
-``` $ cd front-web ```
+``` $ cd react-portfolio ```
 - Install the dependencies:
 ``` $ npm install ```
 - To open the project in the code editor: 
@@ -68,4 +58,5 @@ The following tools were used in the construction of this project:
 
 
 ## Version
-<p>Version 1.0</p> 
+<p>Version 1.1</p>
+<p>Updated in: 04/27/2022</p>
