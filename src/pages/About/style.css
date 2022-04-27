@@ -2,3 +2,9 @@
     text-align: justify;
 }
 
+.container .final-sentence {
+    text-align: center;
+    align-self: center;
+    font-weight: 600;
+    font-style: italic;
+}
