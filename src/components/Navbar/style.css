@@ -49,14 +49,15 @@
 #navbar header h3 {
   margin: 0 0 6%;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.5px;
 }
 
 #navbar header p {
   margin: 0;
-  font-weight: 100;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.6;
   letter-spacing: 0.5px;
 }
 
