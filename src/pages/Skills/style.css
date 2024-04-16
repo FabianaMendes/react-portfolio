@@ -1,55 +1,57 @@
-.container .skills, .courses-container {
-    margin: 1% 0 5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 30%);
-    grid-gap: 2vw;
-    justify-content: space-between;
-    height: max-content;
+.container .skills,
+.courses-container {
+  margin: 1% 0 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30%);
+  grid-gap: 2vw;
+  justify-content: space-between;
+  height: max-content;
 }
 
 .container .courses-container li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container .courses-container h4 {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .container .courses-container h5 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .container .courses-container p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .container .courses-container p span {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-.container .skills-container:first-child{
-    margin-bottom:100px;
+.container .skills-container:first-child {
+  margin-bottom: 100px;
 }
 
 .container li {
-    list-style: none;
-    position: relative;
-    margin-left: 10px;
+  list-style: none;
+  position: relative;
+  margin-left: 10px;
 }
 
 .container li:before {
-    content: '\2022';
-    display: inline-block;
-    position: absolute;
-    left: -10px;
-    color: var(--primary);
+  content: "\2022";
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  color: var(--primary);
 }
 
-@media only screen and (max-width: 900px){
-    .container .skills, .courses-container {
-        margin: 5vh 8vw 5vh;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 100%);
-        grid-gap: 2vw;
-    }
+@media only screen and (max-width: 900px) {
+  .container .skills,
+  .courses-container {
+    margin: 5vh 8vw 5vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-gap: 2vw;
+  }
 }

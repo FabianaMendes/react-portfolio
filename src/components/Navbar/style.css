@@ -1,175 +1,177 @@
-.navbar-container{
-    position: fixed;
-    z-index: 999998;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 2%;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 100vh;
-    background-color: var(--dark);
-    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.3);
+.navbar-container {
+  position: fixed;
+  z-index: 999998;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2%;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: var(--dark);
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.3);
 }
-.navbar-container #navbar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+.navbar-container #navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 #navbar header {
-    color: var(--light);
-    text-align: center;
+  color: var(--light);
+  text-align: center;
 }
 
 #navbar header img {
-    width: 100px;
-    border: 2px solid var(--primary);
-    border-radius: 50%;
-    transition: .2s ease-in-out;
+  width: 100px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
 }
 
 #navbar header img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #navbar header h1 {
-    margin: 3% 0 0;
-    font-weight: 500;
-    font-size: 28px;
+  margin: 3% 0 0;
+  font-weight: 500;
+  font-size: 28px;
 }
 
 #navbar header h3 {
-    margin: 0 0 6%;
-    font-weight: 300;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+  margin: 0 0 6%;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
 #navbar header p {
-    margin: 0;
-    font-weight: 100;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+  margin: 0;
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }
 
 #navbar .media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  padding: 10%;
+  box-sizing: border-box;
+}
+
+#navbar .media i {
+  font-size: 25px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 2px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#icon {
+  color: var(--light);
+  display: none;
+}
+
+#navbar #hidden {
+  display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-container {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 5vw;
+    box-sizing: border-box;
+  }
+  .navbar-container #navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #navbar header h1,
+  #navbar header h3,
+  #navbar header p {
+    display: none;
+  }
+  #navbar header img {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 999999;
+  }
+  #navbar .media {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+    padding: 0 5vw 0 0;
     width: 100%;
-    height: fit-content;
-    padding: 10%;
-    box-sizing: border-box;
-}
-
-#navbar .media i {
-    font-size: 25px;
     height: 100%;
+    z-index: 999999;
+  }
+  #navbar #icon {
+    display: block;
+    position: absolute;
+    z-index: 999999;
+    cursor: pointer;
+    height: 100%;
+    right: 5vw;
+    font-size: 25px;
+  }
+  .navlinks {
+    display: none;
+  }
+  .navlinks a {
+    padding: 2.8vh;
+    font-size: 20px;
+  }
+  #navbar #hidden {
+    position: absolute;
+    background-color: var(--dark);
+    top: 0;
+    left: 0;
+    z-index: 999998;
+    height: 100vh;
+    max-height: 100vh;
+    box-sizing: border-box;
     width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 0 2px;
-}
-
-.navlinks {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-}
-
-#icon {
-    color: var(--light);
-    display: none;
-}
-
-#navbar #hidden {
-    display: flex;
-}
-
-@media only screen and (max-width: 900px){
-    .navbar-container {
-        width: 100%;
-        height: 12vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        padding: 2vh 5vw;
-        box-sizing: border-box;
-    }
-    .navbar-container #navbar {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    #navbar header h1, #navbar header h3, #navbar header p {
-        display: none;
-    }
-    #navbar header img {
-        width: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        z-index: 999999;
-    }
-    #navbar .media {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 0 5vw 0 0;
-        width: 100%;
-        height: 100%;
-        z-index: 999999;
-    }
-    #navbar #icon {
-        display: block;
-        position: absolute;
-        z-index: 999999;
-        cursor: pointer;
-        height: 100%;
-        right: 5vw;
-        font-size: 25px;
-    }
-    .navlinks {
-        display: none;
-    }
-    .navlinks a {
-        padding: 2.8vh;
-        font-size: 20px;
-    }
-    #navbar #hidden {
-        position: absolute;
-        background-color: var(--dark);
-        top: 0;
-        left: 0;
-        z-index: 999998;
-        height: 100vh;
-        max-height: 100vh;
-        box-sizing: border-box;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        animation: slide 0.3s ease;
-    }
+    padding: 0;
+    animation: slide 0.3s ease;
+  }
 }

@@ -1,4 +1,3 @@
-import Card from '../../components/Cards';
 import SkillBar from '../../components/SkillBar';
 import './style.css';
 
