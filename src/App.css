@@ -2,7 +2,7 @@
 
 :root {
   --primary: #eaf205;
-  --primary-dark: #b9bf04;
+  --primary-dark: #a8ad0c;
   --primary-light: #f2f769;
   --light: #f8f8f8;
   --light-gray: #eef0f6;
@@ -10,17 +10,6 @@
   --dark-gray: #221e3b;
   --dark: #18152b;
 }
-
-/* :root {
-    --primary: #F5A9E1;
-    --primary-dark: #F294D9;
-    --primary-light: #F7BFE8;
-    --light: #F8F8F8;
-    --light-gray: #EEF0F6;
-    --gray: #888888;
-    --dark-gray: #221d42;
-    --dark: #1C1737;
-  } */
 
 * {
   margin: 0;

@@ -11,13 +11,13 @@ export default function About() {
           <br></br>
           Prazer em ter você por aqui!
           <br></br>
-          Meu Nome é Fabiana Moreira Mendes, mas pode me chamar de <b>Fabi</b>!
+          Meu nome é Fabiana, mas pode me chamar de <b>Fabi</b>!
           <br></br>
           <br></br>
           Sou Desenvolvedora Front-End, apaixonada por arte, design e decoração,
-          diy, filmes, séries e música! Sou natural de Patrocínio/MG mas
+          DIY, filmes, séries e música! Sou natural de Patrocínio/MG mas
           atualmente resido em Uberlândia/MG. Sou casada, tenho uma filha linda
-          e duas pequeninas de 4 patas - uma gatinha e uma shitzu - que são a
+          e três pequeninas de 4 patas - duas gatinhas e uma shitzu - que são a
           alegria da casa!
           <br></br>
           <br></br>
@@ -28,21 +28,24 @@ export default function About() {
           aviação, professora de dança, empreendedora, marceneira, cosmetóloga,
           vendedora, motorista e analista de recursos humanos, decidi que era
           hora de fazer uma busca profunda, escolher uma carreira e focar nela.
-          Iniciei então uma busca por realização pessoal e em janeiro de 2020
-          optei pela carreira em desenvolvimento. Decidi que queria dar vida à
+          Iniciei então minha busca por realização pessoal e em janeiro de 2020
+          iniciei na carreira em desenvolvimento. Decidi que queria dar vida à
           projetos por meio da tecnologia. Daquele momento em diante não parei
           mais de estudar.
           <br></br>
           <br></br>
-          Hoje atuo como Desenvolvedora Front-End React e React Native e estou
-          no 3º período do curso de Análise e Desenvolvimento de Sistemas na
-          Faculdade Pitágoras-Uberlândia(EaD). Me sinto realizada com as
-          escolhas que fiz!
+          Hoje atuo como Desenvolvedora Front-End React e React Native, sou 
+          formada em Análise e Desenvolvimento de Sistemas pela Universidade
+          Pitágoras de Uberlândia. Me sinto realizada com as escolhas que fiz!
           <br></br>
           <br></br>
-          Meu objetivo a curto prazo é a especialização na minha stack. Estou
-          sempre buscando conhecimentos nas áreas de clean code, design patterns
-          e arquitetura escalável, gosto de trabalhar com práticas de
+          Minha carreira segue um perfil T, com conhecimentos mais aprofundados
+          no desenvolvimento frontend, principalmente na stack atual, mas sou capaz
+          de contribuir e participar ativamente das areas de design, produto e negócios.
+          Meu objetivo atualmente é melhorar minhas skills no que se refere à arquitetura
+          e engenharia de software como um todo. Estou constantemente
+          buscando conhecimentos nas áreas de clean code, design patterns
+          e arquitetura escalável. Gosto de trabalhar com práticas de
           desenvolvimento ágil, tenho bom raciocínio lógico e pensamento
           analítico. Sou exigente e busco excelência em tudo que faço.
           <br></br>
