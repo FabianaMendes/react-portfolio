@@ -21,6 +21,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--dark-gray);
+  font-size: 16px;
 }
 
 h1,
@@ -135,4 +136,8 @@ a:hover {
   background-color: var(--primary-light);
   box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.34);
   transform: scale(1.05);
+}
+
+.title-name {
+  color: var(--primary-light);
 }

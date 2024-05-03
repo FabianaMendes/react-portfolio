@@ -1,10 +1,61 @@
-import SkillBar from '../../components/SkillBar';
 import './style.css';
 
 export default function Skills() {
   return (
     <div className="container">
-      <h2>Courses</h2>
+      <h2>Habilidades</h2>
+      <div className="line"></div>
+      <h3 className="skills-title">
+        Habilidades Técnicas
+      </h3>
+        <ul className="skills">
+          <li>Typescript</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>React Native</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bibliotecas de estilo diversas</li>
+          <li>Versionamento de código com GitHub e GitLab</li>
+          <li>Design e Prototipação de interfaces com Figma</li>
+          <li>Ferramentas de CI/CD (Circle CI)</li>
+          <li>Ferramentas de monitoramento (Sentry, Ghost Inspector)</li>
+          <li>Ferramentas para Analytics (Rudderstack e Amplitude)</li>
+          <li>Ferramentas para testes unitários, testes de integração e E2E</li>
+          <li>Atomic Design</li>
+          <li>Clean code</li>
+          <li>Microfrontends</li>
+          <li>White labelling</li>
+          <li>Next.js</li>
+          <li>Vue.js</li>
+          <li>App Center</li>
+          <li>AWS S3</li>
+          <li>Noções de Java</li>
+        </ul>
+      <br />
+      <h3 className="skills-title">
+        Habilidades Interpessoais e Comportamentais
+      </h3>
+      <ul className="skills">
+        <li >Flexibilidade</li>
+        <li>Resolução de problemas</li>
+        <li>Ética</li>
+        <li>Empatia</li>
+        <li>Comunicação oral</li>
+        <li>Comunicação escrita</li>
+        <li>Curiosidade</li>
+        <li>Foco</li>
+        <li>Resiliência</li>
+        <li>Colaboração</li>
+        <li>Proatividade</li>
+        <li>Confiabilidade</li>
+        <li>Organização</li>
+        <li>Autonomia</li>
+        <li>Auto gestão</li>
+        <li>Negociação</li>
+        <li>Criatividade</li>
+      </ul>
+      <h2>Cursos</h2>
       <div className="line"></div>
       <ul className="courses-container">
         <li>
@@ -91,99 +142,6 @@ export default function Skills() {
           <p><span>Carga Horária: </span>12h</p>
           <p><span>Conclusão: </span>Fevereiro/2019</p>
         </li>
-      </ul>
-      <h2>My Skills</h2>
-      <div className="line"></div>
-      <h3>Hard Skills</h3>
-      <div className="skills">
-        <SkillBar
-          name="React Native"
-          size="80"
-        />
-        <SkillBar
-          name="React"
-          size="80"
-        />
-        <SkillBar
-          name="HTML"
-          size="80"
-        />
-        <SkillBar
-          name="CSS"
-          size="80"
-        />
-        <SkillBar
-          name="Typescript"
-          size="80"
-        />
-        <SkillBar
-          name="Scrum"
-          size="80"
-        />
-        <SkillBar
-          name="Javascript"
-          size="70"
-        />
-        <SkillBar
-          name="Git/Github/Gitlab"
-          size="70"
-        />
-        <SkillBar
-          name="Figma"
-          size="60"
-        />
-        <SkillBar
-          name="Design de Interfaces"
-          size="30"
-        />
-        <SkillBar
-          name="Next.js"
-          size="30"
-        />
-        <SkillBar
-          name="Vue.js"
-          size="20"
-        />
-        <SkillBar
-          name="App Center"
-          size="20"
-        />
-        <SkillBar
-          name="AWS S3"
-          size="10"
-        />
-        <SkillBar
-          name="Java"
-          size="10"
-        />
-        <SkillBar
-          name="Bootstrap"
-          size="10"
-        />
-        <SkillBar
-          name="Material UI"
-          size="10"
-        />
-      </div>
-      <br />
-      <h3>Soft Skills</h3>
-      <ul className="skills">
-        <li >Flexibilidade</li>
-        <li>Resolução de problemas</li>
-        <li>Ética</li>
-        <li>Empatia</li>
-        <li>Comunicação oral</li>
-        <li>Comunicação escrita</li>
-        <li>Curiosidade</li>
-        <li>Foco</li>
-        <li>Resiliência</li>
-        <li>Colaboração</li>
-        <li>Liderança</li>
-        <li>Organização</li>
-        <li>Autonomia</li>
-        <li>Auto gestão</li>
-        <li>Negociação</li>
-        <li>Criatividade</li>
       </ul>
     </div>
   );

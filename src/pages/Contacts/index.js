@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Contacts() {
   return (
     <div className="container">
-      <h2>Contacts</h2>
+      <h2>Contato</h2>
       <div className="line"></div>
       <p>
         Você pode entrar em contato comigo através das minhas redes sociais ou, se preferir,

@@ -6,7 +6,7 @@ export default function Experiences() {
   return (
     <>
       <div className="container">
-        <h2>Experiences</h2>
+        <h2>Experiências</h2>
         <div className="line"></div>
         <div className="cards-experiences">
           <Card

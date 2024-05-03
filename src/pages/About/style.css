@@ -8,3 +8,29 @@
   font-weight: 600;
   font-style: italic;
 }
+
+.container .title-name {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.container .title-welcome {
+  margin-top: 3rem;
+}
+
+.container h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container ul li {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 780px) {
+  .container .title-name {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}

@@ -27,8 +27,8 @@ export default function Navbar() {
           </NavLink>
 
           <h1>Fabiana Mendes</h1>
-          <h3>Desenvolvedora Front-End</h3>
-          <p>Apaixonada por design, mãe, estudante, programadora.</p>
+          <h3>Desenvolvedora Frontend</h3>
+          <p>Apaixonada por design, heavy metal e gatos.</p>
         </header>
         <nav className="media">
           <a href="https://github.com/FabianaMendes" target="new">
@@ -64,26 +64,28 @@ export default function Navbar() {
             className="nav-link"
             onClick={() => setShowLinks(false)}
           >
-            About me
+            Sobre
           </NavLink>
           <NavLink
-            to="/experiences"
+            to="/experiencias"
             className="nav-link"
             onClick={() => setShowLinks(false)}
           >
-            Experiences
+            Experiências
           </NavLink>
           <NavLink
-            to="/skills"
-            className="nav-link"
-            onClick={() => setShowLinks(false)}
-          >{`Courses & Skills`}</NavLink>
-          <NavLink
-            to="/contacts"
+            to="/habilidades"
             className="nav-link"
             onClick={() => setShowLinks(false)}
           >
-            Contacts
+            Habilidades
+          </NavLink>
+          <NavLink
+            to="/contato"
+            className="nav-link"
+            onClick={() => setShowLinks(false)}
+          >
+            Contato
           </NavLink>
         </nav>
       </div>

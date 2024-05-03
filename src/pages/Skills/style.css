@@ -2,10 +2,10 @@
 .courses-container {
   margin: 1% 0 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 30%);
-  grid-gap: 2vw;
+  grid-gap: 10px;
   justify-content: space-between;
   height: max-content;
+  grid-template-columns: repeat(auto-fill, 100%);
 }
 
 .container .courses-container li {
@@ -46,12 +46,14 @@
   color: var(--primary);
 }
 
+.container .skills-title {
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 900px) {
   .container .skills,
   .courses-container {
-    margin: 5vh 8vw 5vh;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
-    grid-gap: 2vw;
+    margin: 5%;
+    grid-gap: 1.5vw;
   }
 }

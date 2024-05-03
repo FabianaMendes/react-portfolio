@@ -16,13 +16,13 @@ function Routes() {
       <Navbar />
       <Suspense fallback={<h5>Loading...</h5>}>
         <Switch>
-          <Route path="/contacts">
+          <Route path="/contato">
             <Contacts />
           </Route>
-          <Route path="/skills">
+          <Route path="/habilidades">
             <Skills />
           </Route>
-          <Route path="/experiences">
+          <Route path="/experiencias">
             <Experiences />
           </Route>
           <Route path="/">
